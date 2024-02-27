@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .container234 {
+        @apply flex text-white bg-green-400 md:flex-row flex-col;
+    }
+
+    .btn{
+        @apply border-2 border-white text-[12px] px-7 py-2 hover:bg-white hover:text-black;
+    }
+
+    .btn2{
+        @apply border-2 border-black  text-[12px] hover:bg-black hover:text-white px-7 py-2;
+    }
+}
+ .textShadow{
+    text-shadow:0px 1px 3px rgba(0,0,0,0.6);;
+ }
